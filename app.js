@@ -30,7 +30,10 @@
 // console.log(`Date ajd ${test.ajd}`);
 // console.log(`Result ${test.test} jours`);
 
-const date1=require('./ObjetModule/CalculDate')
-date1.jourAvantNextNoel();
-date1.jourAvantNextBD();
-date1.coucou();
+// const date1=require('./ObjetModule/CalculDate')
+// date1.jourAvantNextNoel();
+// date1.jourAvantNextBD();
+ const daysBefore=require('./Exercice/daysBefore');
+ daysBefore.christmas();
+ daysBefore.solstice();
+ daysBefore.friday13();
