@@ -23,9 +23,14 @@
 
 
 
-const date1=require('./ObjetModule/CalculDate')
-let test = new date1(new Date('2023-12-25'));
+// const date1=require('./ObjetModule/CalculDate')
+// let test = new date1(new Date('2023-12-25'));
 
-console.log(`Date donner ${test.date}`);
-console.log(`Date ajd ${test.ajd}`);
-console.log(`Result ${test.test} jours`);
+// console.log(`Date donner ${test.date}`);
+// console.log(`Date ajd ${test.ajd}`);
+// console.log(`Result ${test.test} jours`);
+
+const date1=require('./ObjetModule/CalculDate')
+date1.jourAvantNextNoel();
+date1.jourAvantNextBD();
+date1.coucou();
