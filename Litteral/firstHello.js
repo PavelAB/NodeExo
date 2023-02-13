@@ -1,0 +1,1 @@
+module.exports = "Bonjour et bienvenue dans ce tuto Modules";
